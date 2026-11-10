@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Informe Visual de Ventas</title>
+  <title>Informe Visual de Ventas 2024</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400..700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;1,8..60,400&display=swap" rel="stylesheet">
@@ -237,9 +237,9 @@
     <button class="pill fill" onclick="irA('stp-s1')">Empezar</button>
   </nav>
 
-  <!-- Hero Header -->
+  <!-- Hero Header con KPIs reales del dataset -->
   <header class="hero">
-    <div class="tag">Enero – Diciembre</div>
+    <div class="tag">Enero 2024 – Diciembre 2024</div>
     <h1>Lo que <em>cuentan</em> los números de la caja</h1>
     <p class="sub">Un recorrido simple por las ventas: cuánto entra, qué se pide más y qué se consume cuando hay canchas y piletas en uso.</p>
     <div class="btns">
@@ -250,25 +250,25 @@
     <div class="kpis">
       <div class="k" style="animation-delay: 0.00s;">
         <div class="kl">Vendido en total</div>
-        <div class="kv">$14.850.000</div>
+        <div class="kv">$202.630.948</div>
         <div class="kd">entre enero y diciembre</div>
-        <svg viewBox="0 0 170 48" class="spark"><path d="M4.0,40.0 C27.2,40.0 50.4,24.0 73.6,24.0 C96.8,24.0 120.0,8.0 143.2,8.0 C154.8,8.0 154.8,12.0 166.0,12.0" class="ln" pathLength="1" fill="none" stroke="#5d2a1a" stroke-width="2.4" stroke-linecap="round"/></svg>
+        <svg viewBox="0 0 170 48" class="spark"><path d="M4.0,40.0 C27.2,43.0 50.4,42.0 73.6,39.0 C96.8,36.0 120.0,30.0 143.2,18.0 C154.8,12.0 160.0,6.0 166.0,4.0" class="ln" pathLength="1" fill="none" stroke="#5d2a1a" stroke-width="2.4" stroke-linecap="round"/></svg>
       </div>
       <div class="k" style="animation-delay: 0.15s;">
         <div class="kl">Un día típico</div>
-        <div class="kv">$48.500</div>
+        <div class="kv">$576.795</div>
         <div class="kd">promedio de lo que entra por día</div>
-        <svg viewBox="0 0 170 48" class="spark"><path d="M4.0,35.0 C27.2,35.0 50.4,18.0 73.6,18.0 C96.8,18.0 120.0,6.0 143.2,6.0 C154.8,6.0 154.8,10.0 166.0,10.0" class="ln" pathLength="1" fill="none" stroke="#5d2a1a" stroke-width="2.4" stroke-linecap="round"/></svg>
+        <svg viewBox="0 0 170 48" class="spark"><path d="M4.0,36.0 C27.2,42.0 50.4,41.0 73.6,38.0 C96.8,33.0 120.0,22.0 143.2,14.0 C154.8,8.0 160.0,4.0 166.0,2.0" class="ln" pathLength="1" fill="none" stroke="#5d2a1a" stroke-width="2.4" stroke-linecap="round"/></svg>
       </div>
       <div class="k" style="animation-delay: 0.30s;">
         <div class="kl">Mejor mes</div>
-        <div class="kv">Diciembre</div>
-        <div class="kd">$68 mil por día</div>
+        <div class="kv">Diciembre 2024</div>
+        <div class="kd">$1.087.629 por día</div>
       </div>
       <div class="k" style="animation-delay: 0.45s;">
         <div class="kl">Días con ventas</div>
-        <div class="kv">306</div>
-        <div class="kd">1.420 operaciones registradas</div>
+        <div class="kv">349</div>
+        <div class="kd">días de registro en el año</div>
       </div>
     </div>
   </header>
@@ -290,114 +290,256 @@
           <label for="stp-t3">Días con ventas</label>
         </div>
 
+        <!-- Panel Promedio por día -->
         <div class="pn pn1">
           <div class="big" style="margin-top:0">Promedio por día</div>
           <p class="mut" style="margin-bottom:8px">Cuánto se recauda en un día normal de cada mes.</p>
-          <svg viewBox="0 0 900 330" role="img" aria-label="Gráfico de líneas">
+          <svg viewBox="0 0 900 330" role="img" aria-label="Gráfico de líneas promedio por día">
             <defs>
               <linearGradient id="g1" x1="0" y1="0" x2="0" y2="1">
                 <stop offset="0" stop-color="#5d2a1a" stop-opacity=".20"/>
                 <stop offset="1" stop-color="#5d2a1a" stop-opacity="0"/>
               </linearGradient>
             </defs>
-            <path d="M44.0,200.0 C117.3,200.0 190.5,180.0 263.8,180.0 C337.1,180.0 410.4,140.0 483.6,140.0 C556.9,140.0 630.2,110.0 703.5,110.0 C776.7,110.0 813.4,70.0 856.0,70.0 L856.0,280 L44.0,280 Z" fill="url(#g1)" class="ar"/>
-            <path d="M44.0,200.0 C117.3,200.0 190.5,180.0 263.8,180.0 C337.1,180.0 410.4,140.0 483.6,140.0 C556.9,140.0 630.2,110.0 703.5,110.0 C776.7,110.0 813.4,70.0 856.0,70.0" class="ln" pathLength="1" fill="none" stroke="#5d2a1a" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M44.0,230.1 L117.3,253.2 L190.5,251.4 L263.8,246.3 L337.1,233.5 L410.4,221.0 L483.6,225.0 L556.9,199.5 L630.2,154.8 L703.5,141.2 L776.7,103.1 L856.0,57.7 L856.0,280 L44.0,280 Z" fill="url(#g1)" class="ar"/>
+            <path d="M44.0,230.1 L117.3,253.2 L190.5,251.4 L263.8,246.3 L337.1,233.5 L410.4,221.0 L483.6,225.0 L556.9,199.5 L630.2,154.8 L703.5,141.2 L776.7,103.1 L856.0,57.7" class="ln" pathLength="1" fill="none" stroke="#5d2a1a" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+            
             <text x="44.0" y="312" text-anchor="middle" class="eje">Ene</text>
+            <text x="117.3" y="312" text-anchor="middle" class="eje">Feb</text>
+            <text x="190.5" y="312" text-anchor="middle" class="eje">Mar</text>
             <text x="263.8" y="312" text-anchor="middle" class="eje">Abr</text>
+            <text x="337.1" y="312" text-anchor="middle" class="eje">May</text>
+            <text x="410.4" y="312" text-anchor="middle" class="eje">Jun</text>
             <text x="483.6" y="312" text-anchor="middle" class="eje">Jul</text>
+            <text x="556.9" y="312" text-anchor="middle" class="eje">Ago</text>
+            <text x="630.2" y="312" text-anchor="middle" class="eje">Sep</text>
             <text x="703.5" y="312" text-anchor="middle" class="eje">Oct</text>
+            <text x="776.7" y="312" text-anchor="middle" class="eje">Nov</text>
             <text x="856.0" y="312" text-anchor="middle" class="eje">Dic</text>
+
+            <g class="pt"><circle cx="44.0" cy="230.1" r="5" fill="#ffffff" stroke="#5d2a1a" stroke-width="2.5"/><text x="44.0" y="214.1" text-anchor="middle" class="val">$437 mil</text></g>
+            <g class="pt"><circle cx="117.3" cy="253.2" r="5" fill="#ffffff" stroke="#5d2a1a" stroke-width="2.5"/><text x="117.3" y="237.2" text-anchor="middle" class="val">$350 mil</text></g>
+            <g class="pt"><circle cx="190.5" cy="251.4" r="5" fill="#ffffff" stroke="#5d2a1a" stroke-width="2.5"/><text x="190.5" y="235.4" text-anchor="middle" class="val">$357 mil</text></g>
+            <g class="pt"><circle cx="263.8" cy="246.3" r="5" fill="#ffffff" stroke="#5d2a1a" stroke-width="2.5"/><text x="263.8" y="230.3" text-anchor="middle" class="val">$377 mil</text></g>
+            <g class="pt"><circle cx="337.1" cy="233.5" r="5" fill="#ffffff" stroke="#5d2a1a" stroke-width="2.5"/><text x="337.1" y="217.5" text-anchor="middle" class="val">$425 mil</text></g>
+            <g class="pt"><circle cx="410.4" cy="221.0" r="5" fill="#ffffff" stroke="#5d2a1a" stroke-width="2.5"/><text x="410.4" y="205.0" text-anchor="middle" class="val">$472 mil</text></g>
+            <g class="pt"><circle cx="483.6" cy="225.0" r="5" fill="#ffffff" stroke="#5d2a1a" stroke-width="2.5"/><text x="483.6" y="209.0" text-anchor="middle" class="val">$457 mil</text></g>
+            <g class="pt"><circle cx="556.9" cy="199.5" r="5" fill="#ffffff" stroke="#5d2a1a" stroke-width="2.5"/><text x="556.9" y="183.5" text-anchor="middle" class="val">$553 mil</text></g>
+            <g class="pt"><circle cx="630.2" cy="154.8" r="5" fill="#ffffff" stroke="#5d2a1a" stroke-width="2.5"/><text x="630.2" y="138.8" text-anchor="middle" class="val">$721 mil</text></g>
+            <g class="pt"><circle cx="703.5" cy="141.2" r="5" fill="#ffffff" stroke="#5d2a1a" stroke-width="2.5"/><text x="703.5" y="125.2" text-anchor="middle" class="val">$772 mil</text></g>
+            <g class="pt"><circle cx="776.7" cy="103.1" r="5" fill="#ffffff" stroke="#5d2a1a" stroke-width="2.5"/><text x="776.7" y="87.1" text-anchor="middle" class="val">$916 mil</text></g>
             <g class="pt pk">
-              <circle cx="856.0" cy="70.0" r="22" fill="transparent"/>
-              <circle class="dot" cx="856.0" cy="70.0" r="7" fill="#5d2a1a" stroke="#5d2a1a" stroke-width="2.5"/>
-              <text x="856.0" y="54.0" text-anchor="middle" class="val vmax">$68 mil</text>
+              <circle cx="856.0" cy="57.7" r="7" fill="#5d2a1a" stroke="#5d2a1a" stroke-width="2.5"/>
+              <text x="856.0" y="41.7" text-anchor="middle" class="val vmax">$1.09 M</text>
             </g>
           </svg>
         </div>
         
+        <!-- Panel Total del mes -->
         <div class="pn pn2">
           <div class="big" style="margin-top:0">Total del mes</div>
           <p class="mut" style="margin-bottom:8px">Todo el dinero que entró a la caja durante el mes.</p>
-          <div class="vacio">Seleccioná las pestañas para intercambiar los gráficos detallados.</div>
+          <svg viewBox="0 0 900 330" role="img" aria-label="Gráfico de líneas total por mes">
+            <path d="M44.0,227.0 L117.3,241.0 L190.5,237.0 L263.8,230.0 L337.1,223.0 L410.4,206.0 L483.6,206.0 L556.9,184.0 L630.2,151.0 L703.5,134.0 L776.7,108.0 L856.0,86.0" class="ln" fill="none" stroke="#5d2a1a" stroke-width="3.2"/>
+            <g class="pt pk"><circle cx="856.0" cy="86.0" r="7" fill="#5d2a1a"/><text x="856.0" y="70.0" text-anchor="middle" class="val vmax">$30,5 M</text></g>
+          </svg>
         </div>
 
+        <!-- Panel Días trabajados -->
         <div class="pn pn3">
-          <div class="big" style="margin-top:0">Días con ventas</div>
-          <p class="mut" style="margin-bottom:8px">Cuántos días tuvo movimiento la caja en cada mes.</p>
-          <div class="vacio">Seleccioná las pestañas para intercambiar los gráficos detallados.</div>
+          <div class="big" style="margin-top:0">Días trabajados</div>
+          <p class="mut" style="margin-bottom:8px">Cuántos días tuvo movimiento la caja en cada mes de 2024.</p>
+          <svg viewBox="0 0 900 330" role="img" aria-label="Gráfico de líneas días trabajados">
+            <path d="M44.0,150.0 L117.3,135.0 L190.5,120.0 L263.8,105.0 L337.1,120.0 L410.4,90.0 L483.6,75.0 L556.9,75.0 L630.2,90.0 L703.5,75.0 L776.7,90.0 L856.0,120.0" class="ln" fill="none" stroke="#5d2a1a" stroke-width="3.2"/>
+          </svg>
         </div>
       </div>
     </div>
 
+    <!-- Cards resumen de 01 -->
     <div class="three">
-      <div class="card"><div class="lbl">Mejor mes por día</div><div class="big">Diciembre</div><div class="mut">$68.400 en un día típico.</div></div>
-      <div class="card"><div class="lbl">Mes más tranquilo</div><div class="big">Junio</div><div class="mut">$32.100 en un día típico.</div></div>
-      <div class="card"><div class="lbl">Mes que más facturó</div><div class="big">Diciembre</div><div class="mut">$2.050.000 en total.</div></div>
+      <div class="card"><div class="lbl">Mejor mes por día</div><div class="big">Diciembre 2024</div><div class="mut">$1.087.629 en un día típico.</div></div>
+      <div class="card"><div class="lbl">Mes más tranquilo</div><div class="big">Febrero 2024</div><div class="mut">$350.369 en un día típico.</div></div>
+      <div class="card"><div class="lbl">Mes que más facturó</div><div class="big">Diciembre 2024</div><div class="mut">$30.453.610 en total.</div></div>
+    </div>
+
+    <!-- Tabla completa 2024 -->
+    <div class="float" style="margin-top:32px">
+      <div class="big" style="margin:0 0 6px">El detalle, mes por mes (2024)</div>
+      <table class="tbl">
+        <thead>
+          <tr><th>Mes</th><th>Un día típico</th><th>Días con ventas</th><th class="r">Total del mes</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Enero 2024</td><td>$437.482</td><td class="mx">26 días</td><td class="r" style="background:linear-gradient(90deg,rgba(23,25,28,.13) 37%,rgba(23,25,28,.035) 37%)">$11.374.535</td></tr>
+          <tr><td>Febrero 2024</td><td>$350.369</td><td class="mx">27 días</td><td class="r" style="background:linear-gradient(90deg,rgba(23,25,28,.13) 31%,rgba(23,25,28,.035) 31%)">$9.459.973</td></tr>
+          <tr><td>Marzo 2024</td><td>$357.374</td><td class="mx">28 días</td><td class="r" style="background:linear-gradient(90deg,rgba(23,25,28,.13) 33%,rgba(23,25,28,.035) 33%)">$10.006.483</td></tr>
+          <tr><td>Abril 2024</td><td>$376.508</td><td class="mx">29 días</td><td class="r" style="background:linear-gradient(90deg,rgba(23,25,28,.13) 36%,rgba(23,25,28,.035) 36%)">$10.918.726</td></tr>
+          <tr><td>Mayo 2024</td><td>$424.757</td><td class="mx">28 días</td><td class="r" style="background:linear-gradient(90deg,rgba(23,25,28,.13) 39%,rgba(23,25,28,.035) 39%)">$11.893.191</td></tr>
+          <tr><td>Junio 2024</td><td>$471.804</td><td class="mx">30 días</td><td class="r" style="background:linear-gradient(90deg,rgba(23,25,28,.13) 46%,rgba(23,25,28,.035) 46%)">$14.154.121</td></tr>
+          <tr><td>Julio 2024</td><td>$456.698</td><td class="mx">31 días</td><td class="r" style="background:linear-gradient(90deg,rgba(23,25,28,.13) 46%,rgba(23,25,28,.035) 46%)">$14.157.647</td></tr>
+          <tr><td>Agosto 2024</td><td>$552.697</td><td class="mx">31 días</td><td class="r" style="background:linear-gradient(90deg,rgba(23,25,28,.13) 56%,rgba(23,25,28,.035) 56%)">$17.133.605</td></tr>
+          <tr><td>Septiembre 2024</td><td>$721.353</td><td class="mx">30 días</td><td class="r" style="background:linear-gradient(90deg,rgba(23,25,28,.13) 71%,rgba(23,25,28,.035) 71%)">$21.640.598</td></tr>
+          <tr><td>Octubre 2024</td><td>$772.486</td><td class="mx">31 días</td><td class="r" style="background:linear-gradient(90deg,rgba(23,25,28,.13) 79%,rgba(23,25,28,.035) 79%)">$23.947.065</td></tr>
+          <tr><td>Noviembre 2024</td><td>$916.390</td><td class="mx">30 días</td><td class="r" style="background:linear-gradient(90deg,rgba(23,25,28,.13) 90%,rgba(23,25,28,.035) 90%)">$27.491.694</td></tr>
+          <tr><td>Diciembre 2024</td><td>$1.087.629</td><td class="mx">28 días</td><td class="r" style="background:linear-gradient(90deg,rgba(23,25,28,.13) 100%,rgba(23,25,28,.035) 100%)">$30.453.610</td></tr>
+        </tbody>
+      </table>
     </div>
   </section>
 
-  <!-- 02 TOP 3 POR MES -->
+  <!-- 02 TOP 3 POR MES (DATOS REALES CAPTURA 2) -->
   <div class="band fog" id="stp-s2">
     <div class="tag">02 · Más vendidos</div>
-    <h2>El podio de <em>cada mes</em></h2>
-    <p class="lead">Los tres productos que más se vendieron en cada mes, medidos en unidades. Las señas de canchas y piletas no cuentan acá.</p>
+    <h2>El podio de <em>cada mes (2024)</em></h2>
+    <p class="lead">Los tres productos que más se vendieron en cada mes, medidos en unidades.</p>
     
     <div class="grid">
+      <!-- 2024-01 -->
       <div class="card mc">
         <div class="lbl">Los 3 más vendidos</div>
-        <h3>Enero</h3>
-        <div class="it p1"><div class="row"><span class="no">1</span><span class="nm">Powerade Blue</span><span class="un">142 u.</span></div><div class="bar"><i style="width:100%"></i></div></div>
-        <div class="it p2"><div class="row"><span class="no">2</span><span class="nm">Coca-Cola 2.25L</span><span class="un">118 u.</span></div><div class="bar"><i style="width:83%"></i></div></div>
-        <div class="it p3"><div class="row"><span class="no">3</span><span class="nm">Budweiser 1L</span><span class="un">95 u.</span></div><div class="bar"><i style="width:66%"></i></div></div>
+        <h3>Enero 2024</h3>
+        <div class="it p1"><div class="row"><span class="no">1</span><span class="nm">Pileta Entrada ANTICIPADA</span><span class="un">1.092 u.</span></div><div class="bar"><i style="width:100%"></i></div></div>
+        <div class="it p2"><div class="row"><span class="no">2</span><span class="nm">Colonia Vianda</span><span class="un">805 u.</span></div><div class="bar"><i style="width:74%"></i></div></div>
+        <div class="it p3"><div class="row"><span class="no">3</span><span class="nm">Pileta Entrada</span><span class="un">590 u.</span></div><div class="bar"><i style="width:54%"></i></div></div>
       </div>
+      <!-- 2024-02 -->
       <div class="card mc">
         <div class="lbl">Los 3 más vendidos</div>
-        <h3>Febrero</h3>
-        <div class="it p1"><div class="row"><span class="no">1</span><span class="nm">Cerveza Brahma</span><span class="un">160 u.</span></div><div class="bar"><i style="width:100%"></i></div></div>
-        <div class="it p2"><div class="row"><span class="no">2</span><span class="nm">Powerade Blue</span><span class="un">130 u.</span></div><div class="bar"><i style="width:81%"></i></div></div>
-        <div class="it p3"><div class="row"><span class="no">3</span><span class="nm">Monster Energy</span><span class="un">88 u.</span></div><div class="bar"><i style="width:55%"></i></div></div>
+        <h3>Febrero 2024</h3>
+        <div class="it p1"><div class="row"><span class="no">1</span><span class="nm">Pileta Entrada ANTICIPADA</span><span class="un">820 u.</span></div><div class="bar"><i style="width:100%"></i></div></div>
+        <div class="it p2"><div class="row"><span class="no">2</span><span class="nm">Pileta Entrada</span><span class="un">565 u.</span></div><div class="bar"><i style="width:69%"></i></div></div>
+        <div class="it p3"><div class="row"><span class="no">3</span><span class="nm">Colonia Vianda</span><span class="un">389 u.</span></div><div class="bar"><i style="width:47%"></i></div></div>
+      </div>
+      <!-- 2024-03 -->
+      <div class="card mc">
+        <div class="lbl">Los 3 más vendidos</div>
+        <h3>Marzo 2024</h3>
+        <div class="it p1"><div class="row"><span class="no">1</span><span class="nm">Caramelos Palitos de la Selva (1)</span><span class="un">493 u.</span></div><div class="bar"><i style="width:100%"></i></div></div>
+        <div class="it p2"><div class="row"><span class="no">2</span><span class="nm">Factura</span><span class="un">313 u.</span></div><div class="bar"><i style="width:63%"></i></div></div>
+        <div class="it p3"><div class="row"><span class="no">3</span><span class="nm">Chicle Bubbaloo</span><span class="un">267 u.</span></div><div class="bar"><i style="width:54%"></i></div></div>
+      </div>
+      <!-- 2024-04 -->
+      <div class="card mc">
+        <div class="lbl">Los 3 más vendidos</div>
+        <h3>Abril 2024</h3>
+        <div class="it p1"><div class="row"><span class="no">1</span><span class="nm">Persona Parrimesa</span><span class="un">889 u.</span></div><div class="bar"><i style="width:100%"></i></div></div>
+        <div class="it p2"><div class="row"><span class="no">2</span><span class="nm">Caramelos Palitos de la Selva (1)</span><span class="un">373 u.</span></div><div class="bar"><i style="width:42%"></i></div></div>
+        <div class="it p3"><div class="row"><span class="no">3</span><span class="nm">Cono de Fritas</span><span class="un">309 u.</span></div><div class="bar"><i style="width:35%"></i></div></div>
+      </div>
+      <!-- 2024-05 -->
+      <div class="card mc">
+        <div class="lbl">Los 3 más vendidos</div>
+        <h3>Mayo 2024</h3>
+        <div class="it p1"><div class="row"><span class="no">1</span><span class="nm">Cono de Fritas</span><span class="un">311 u.</span></div><div class="bar"><i style="width:100%"></i></div></div>
+        <div class="it p2"><div class="row"><span class="no">2</span><span class="nm">Chicle Bubbaloo</span><span class="un">277 u.</span></div><div class="bar"><i style="width:89%"></i></div></div>
+        <div class="it p3"><div class="row"><span class="no">3</span><span class="nm">Persona Parrimesa</span><span class="un">275 u.</span></div><div class="bar"><i style="width:88%"></i></div></div>
+      </div>
+      <!-- 2024-06 -->
+      <div class="card mc">
+        <div class="lbl">Los 3 más vendidos</div>
+        <h3>Junio 2024</h3>
+        <div class="it p1"><div class="row"><span class="no">1</span><span class="nm">Cono de Papas Fritas</span><span class="un">426 u.</span></div><div class="bar"><i style="width:100%"></i></div></div>
+        <div class="it p2"><div class="row"><span class="no">2</span><span class="nm">Factura</span><span class="un">413 u.</span></div><div class="bar"><i style="width:97%"></i></div></div>
+        <div class="it p3"><div class="row"><span class="no">3</span><span class="nm">Cono de Fritas</span><span class="un">339 u.</span></div><div class="bar"><i style="width:80%"></i></div></div>
+      </div>
+      <!-- 2024-07 -->
+      <div class="card mc">
+        <div class="lbl">Los 3 más vendidos</div>
+        <h3>Julio 2024</h3>
+        <div class="it p1"><div class="row"><span class="no">1</span><span class="nm">Factura</span><span class="un">349 u.</span></div><div class="bar"><i style="width:100%"></i></div></div>
+        <div class="it p2"><div class="row"><span class="no">2</span><span class="nm">Persona Parrimesa</span><span class="un">250 u.</span></div><div class="bar"><i style="width:72%"></i></div></div>
+        <div class="it p3"><div class="row"><span class="no">3</span><span class="nm">Pancho</span><span class="un">248 u.</span></div><div class="bar"><i style="width:71%"></i></div></div>
+      </div>
+      <!-- 2024-08 -->
+      <div class="card mc">
+        <div class="lbl">Los 3 más vendidos</div>
+        <h3>Agosto 2024</h3>
+        <div class="it p1"><div class="row"><span class="no">1</span><span class="nm">Caramelo Palitos de la Selva</span><span class="un">435 u.</span></div><div class="bar"><i style="width:100%"></i></div></div>
+        <div class="it p2"><div class="row"><span class="no">2</span><span class="nm">Cono de Fritas</span><span class="un">419 u.</span></div><div class="bar"><i style="width:96%"></i></div></div>
+        <div class="it p3"><div class="row"><span class="no">3</span><span class="nm">Factura</span><span class="un">372 u.</span></div><div class="bar"><i style="width:85%"></i></div></div>
+      </div>
+      <!-- 2024-09 -->
+      <div class="card mc">
+        <div class="lbl">Los 3 más vendidos</div>
+        <h3>Septiembre 2024</h3>
+        <div class="it p1"><div class="row"><span class="no">1</span><span class="nm">Persona Parrimesa</span><span class="un">872 u.</span></div><div class="bar"><i style="width:100%"></i></div></div>
+        <div class="it p2"><div class="row"><span class="no">2</span><span class="nm">Caramelo Palitos de la Selva</span><span class="un">745 u.</span></div><div class="bar"><i style="width:85%"></i></div></div>
+        <div class="it p3"><div class="row"><span class="no">3</span><span class="nm">Empanada Carne</span><span class="un">390 u.</span></div><div class="bar"><i style="width:45%"></i></div></div>
+      </div>
+      <!-- 2024-10 -->
+      <div class="card mc">
+        <div class="lbl">Los 3 más vendidos</div>
+        <h3>Octubre 2024</h3>
+        <div class="it p1"><div class="row"><span class="no">1</span><span class="nm">Caramelo Palitos de la Selva</span><span class="un">679 u.</span></div><div class="bar"><i style="width:100%"></i></div></div>
+        <div class="it p2"><div class="row"><span class="no">2</span><span class="nm">Persona Parrimesa</span><span class="un">634 u.</span></div><div class="bar"><i style="width:93%"></i></div></div>
+        <div class="it p3"><div class="row"><span class="no">3</span><span class="nm">Pancho</span><span class="un">542 u.</span></div><div class="bar"><i style="width:80%"></i></div></div>
+      </div>
+      <!-- 2024-11 -->
+      <div class="card mc">
+        <div class="lbl">Los 3 más vendidos</div>
+        <h3>Noviembre 2024</h3>
+        <div class="it p1"><div class="row"><span class="no">1</span><span class="nm">Persona Parrimesa</span><span class="un">819 u.</span></div><div class="bar"><i style="width:100%"></i></div></div>
+        <div class="it p2"><div class="row"><span class="no">2</span><span class="nm">Caramelo Palitos de la Selva</span><span class="un">664 u.</span></div><div class="bar"><i style="width:81%"></i></div></div>
+        <div class="it p3"><div class="row"><span class="no">3</span><span class="nm">Pancho</span><span class="un">458 u.</span></div><div class="bar"><i style="width:56%"></i></div></div>
+      </div>
+      <!-- 2024-12 -->
+      <div class="card mc">
+        <div class="lbl">Los 3 más vendidos</div>
+        <h3>Diciembre 2024</h3>
+        <div class="it p1"><div class="row"><span class="no">1</span><span class="nm">Bono PILETA EFECTIVO</span><span class="un">514 u.</span></div><div class="bar"><i style="width:100%"></i></div></div>
+        <div class="it p2"><div class="row"><span class="no">2</span><span class="nm">Persona Parrimesa</span><span class="un">509 u.</span></div><div class="bar"><i style="width:99%"></i></div></div>
+        <div class="it p3"><div class="row"><span class="no">3</span><span class="nm">Miller 1L</span><span class="un">319 u.</span></div><div class="bar"><i style="width:62%"></i></div></div>
       </div>
     </div>
   </div>
 
-  <!-- 03 PROMO ESTUDIANTIL -->
+  <!-- 03 PROMO ESTUDIANTIL (DATOS REALES CAPTURA 3) -->
   <section class="sec" id="stp-s3">
     <div class="tag">03 · Promoción estudiantil</div>
     <h2>Qué eligen los <em>estudiantes</em></h2>
     <p class="lead">Los productos más consumidos dentro de la promoción estudiantil y cuánto dinero dejaron.</p>
     <div class="two">
       <div>
-        <p class="lead" style="margin-bottom:24px">El favorito de los estudiantes es <b>Powerade Blue</b>, con 320 unidades vendidas con la promo.</p>
-        <div class="card" style="margin-bottom:16px"><div class="lbl">Unidades con promo</div><div class="big">1.140</div></div>
-        <div class="card" style="margin-bottom:16px"><div class="lbl">Dinero generado</div><div class="big">$1.850.000</div></div>
+        <p class="lead" style="margin-bottom:24px">El favorito de los estudiantes es <b>Cono de Fritas</b>, con 2.621 unidades vendidas con la promo.</p>
+        <div class="card" style="margin-bottom:16px"><div class="lbl">Unidades con promo</div><div class="big">7.894</div></div>
+        <div class="card" style="margin-bottom:16px"><div class="lbl">Dinero generado</div><div class="big">$12.706.450</div></div>
+        <div class="card"><div class="lbl">Productos distintos</div><div class="big">10</div></div>
       </div>
       <div class="float">
         <div class="big" style="margin:0 0 6px">Lo más pedido con la promo</div>
         <table class="tbl">
           <thead><tr><th>#</th><th>Producto</th><th class="r">Unidades</th><th class="r">Ingreso</th></tr></thead>
           <tbody>
-            <tr><td>1</td><td>Powerade Blue<div class="bar"><i style="width:100%"></i></div></td><td class="r">320</td><td class="r mx">$480.000</td></tr>
-            <tr><td>2</td><td>Monster Energy<div class="bar"><i style="width:75%"></i></div></td><td class="r">240</td><td class="r mx">$432.000</td></tr>
-            <tr><td>3</td><td>Ensalada Mixta<div class="bar"><i style="width:50%"></i></div></td><td class="r">160</td><td class="r mx">$288.000</td></tr>
+            <tr><td>1</td><td>Cono de Fritas<div class="bar"><i style="width:100%"></i></div></td><td class="r">2.621</td><td class="r mx">$2.800.000</td></tr>
+            <tr><td>2</td><td>Pancho<div class="bar"><i style="width:66%"></i></div></td><td class="r">1.720</td><td class="r mx">$1.776.200</td></tr>
+            <tr><td>3</td><td>Mila Pollo (1/2)<div class="bar"><i style="width:46%"></i></div></td><td class="r">1.196</td><td class="r mx">$2.580.750</td></tr>
+            <tr><td>4</td><td>Salchipapa<div class="bar"><i style="width:24%"></i></div></td><td class="r">634</td><td class="r mx">$1.531.600</td></tr>
+            <tr><td>5</td><td>Salchipapa c/ cheddar<div class="bar"><i style="width:20%"></i></div></td><td class="r">514</td><td class="r mx">$1.155.500</td></tr>
+            <tr><td>6</td><td>Hamburguesa<div class="bar"><i style="width:19%"></i></div></td><td class="r">508</td><td class="r mx">$1.252.300</td></tr>
+            <tr><td>7</td><td>Tostado Figaza<div class="bar"><i style="width:13%"></i></div></td><td class="r">349</td><td class="r mx">$808.000</td></tr>
+            <tr><td>8</td><td>Figaza<div class="bar"><i style="width:9%"></i></div></td><td class="r">232</td><td class="r mx">$605.600</td></tr>
+            <tr><td>9</td><td>Figaza (1/2)<div class="bar"><i style="width:3%"></i></div></td><td class="r">72</td><td class="r mx">$111.300</td></tr>
+            <tr><td>10</td><td>Fiambre (1/2)<div class="bar"><i style="width:2%"></i></div></td><td class="r">48</td><td class="r mx">$85.200</td></tr>
           </tbody>
         </table>
       </div>
     </div>
   </section>
 
-  <!-- 04 TENDENCIAS (CORRELACIONES Y CARDS INTERACTIVAS) -->
+  <!-- 04 TENDENCIAS (DATOS REALES CAPTURA 4 CON RUTAS DE IMÁGENES LOCALES) -->
   <div class="band mist" id="stp-s4">
     <div class="tag">04 · Tendencias</div>
     <h2>Qué se consume cuando hay <em>canchas y piletas</em></h2>
-    <p class="lead" style="margin-bottom:32px">Hubo 84 días con señas (alquileres) registradas. Acá se ve qué productos suben sus ventas esos días.</p>
+    <p class="lead" style="margin-bottom:32px">Acá se ve qué productos suben sus ventas los días con mayor actividad de alquileres.</p>
     
     <div class="two">
       
-      <!-- Columna Fija Sticky con el Mazo de Tarjetas -->
+      <!-- Columna Fija Sticky con Mazo de Tarjetas -->
       <div class="card-sticky-col">
         <div class="card-stack">
           
-          <!-- Tarjeta rosa inicial (por defecto) -->
+          <!-- Tarjeta rosa inicial -->
           <div class="peach card-layer active-front" id="stp-card-peach">
             <div class="tag" style="color:var(--sienna);opacity:.7">Cómo leer este ranking</div>
             <div style="font-size:26px;font-weight:450;letter-spacing:-.009em;line-height:1.2;margin:10px 0 16px">
@@ -414,7 +556,7 @@
             </div>
           </div>
 
-          <!-- Slot A para tarjeta dinámica de producto -->
+          <!-- Slot A para tarjeta dinámica -->
           <div class="card-layer prod-view hidden-under" id="stp-card-prod-a">
             <div>
               <div class="tag stp-txt-rank" style="color:var(--sienna);opacity:.8">#1 en tendencia</div>
@@ -424,11 +566,11 @@
               <img class="stp-img-prod" src="" alt="Producto" />
             </div>
             <div style="font-size:16px;font-weight:500">
-              Tendencia: <b class="stp-txt-tier">Fuerte</b> (<span class="stp-txt-score">0,00</span>)
+              Tendencia: <b class="stp-txt-tier">Moderada</b> (<span class="stp-txt-score">0,00</span>)
             </div>
           </div>
 
-          <!-- Slot B para alternar la animación entre tarjetas consecutivas -->
+          <!-- Slot B para alternar la animación -->
           <div class="card-layer prod-view hidden-under" id="stp-card-prod-b">
             <div>
               <div class="tag stp-txt-rank" style="color:var(--sienna);opacity:.8">#1 en tendencia</div>
@@ -438,14 +580,14 @@
               <img class="stp-img-prod" src="" alt="Producto" />
             </div>
             <div style="font-size:16px;font-weight:500">
-              Tendencia: <b class="stp-txt-tier">Fuerte</b> (<span class="stp-txt-score">0,00</span>)
+              Tendencia: <b class="stp-txt-tier">Moderada</b> (<span class="stp-txt-score">0,00</span>)
             </div>
           </div>
 
         </div>
       </div>
 
-      <!-- Tabla de ranking (Hover para cambiar la tarjeta) -->
+      <!-- Tabla de ranking exacta con rutas de imágenes originales -->
       <div class="float" onmouseleave="restaurarTarjeta()">
         <div class="big" style="margin:0 0 6px">Los que más acompañan a canchas y piletas</div>
         <table class="tbl">
@@ -453,65 +595,65 @@
             <tr><th>#</th><th>Producto</th><th class="r">Tendencia</th><th class="r">Índice</th></tr>
           </thead>
           <tbody>
-            <tr onmouseenter="mostrarProducto('imgs/power.png', 'Powerade Mountain Blast', '#1 en tendencia', 'Muy fuerte', '0,78')">
+            <tr onmouseenter="mostrarProducto('imgs/placer.png', 'Placer Pomelo 500ml', '#1 en tendencia', 'Moderada', '0,34')">
               <td>1</td>
-              <td>Powerade Mountain Blast<div class="bar"><i style="width:100%"></i></div></td>
-              <td class="r"><span class="tier">Muy fuerte</span></td>
-              <td class="r mx">0,78</td>
-            </tr>
-            <tr onmouseenter="mostrarProducto('imgs/coca225.png', 'Coca-Cola 2.25L', '#2 en tendencia', 'Muy fuerte', '0,72')">
-              <td>2</td>
-              <td>Coca-Cola 2.25L<div class="bar"><i style="width:92%"></i></div></td>
-              <td class="r"><span class="tier">Muy fuerte</span></td>
-              <td class="r mx">0,72</td>
-            </tr>
-            <tr onmouseenter="mostrarProducto('imgs/Budweiser.png', 'Cerveza Budweiser 1L', '#3 en tendencia', 'Muy fuerte', '0,65')">
-              <td>3</td>
-              <td>Cerveza Budweiser 1L<div class="bar"><i style="width:83%"></i></div></td>
-              <td class="r"><span class="tier">Muy fuerte</span></td>
-              <td class="r mx">0,65</td>
-            </tr>
-            <tr onmouseenter="mostrarProducto('imgs/monster.png', 'Monster Energy 473ml', '#4 en tendencia', 'Fuerte', '0,58')">
-              <td>4</td>
-              <td>Monster Energy 473ml<div class="bar"><i style="width:74%"></i></div></td>
-              <td class="r"><span class="tier">Fuerte</span></td>
-              <td class="r mx">0,58</td>
-            </tr>
-            <tr onmouseenter="mostrarProducto('imgs/brahma.png', 'Cerveza Brahma Chopp 1L', '#5 en tendencia', 'Fuerte', '0,52')">
-              <td>5</td>
-              <td>Cerveza Brahma Chopp 1L<div class="bar"><i style="width:66%"></i></div></td>
-              <td class="r"><span class="tier">Fuerte</span></td>
-              <td class="r mx">0,52</td>
-            </tr>
-            <tr onmouseenter="mostrarProducto('imgs/heineken.png', 'Cerveza Heineken 1L', '#6 en tendencia', 'Fuerte', '0,44')">
-              <td>6</td>
-              <td>Cerveza Heineken 1L<div class="bar"><i style="width:56%"></i></div></td>
-              <td class="r"><span class="tier">Fuerte</span></td>
-              <td class="r mx">0,44</td>
-            </tr>
-            <tr onmouseenter="mostrarProducto('imgs/miler.png', 'Cerveza Miller Genuine Draft', '#7 en tendencia', 'Moderada', '0,38')">
-              <td>7</td>
-              <td>Cerveza Miller Genuine Draft<div class="bar"><i style="width:48%"></i></div></td>
+              <td>Placer Pomelo 500ml<div class="bar"><i style="width:100%"></i></div></td>
               <td class="r"><span class="tier">Moderada</span></td>
-              <td class="r mx">0,38</td>
+              <td class="r mx">0,34</td>
             </tr>
-            <tr onmouseenter="mostrarProducto('imgs/coca.png', 'Coca-Cola 237ml', '#8 en tendencia', 'Moderada', '0,31')">
-              <td>8</td>
-              <td>Coca-Cola 237ml<div class="bar"><i style="width:39%"></i></div></td>
+            <tr onmouseenter="mostrarProducto('imgs/miler.png', 'Miller 1L', '#2 en tendencia', 'Moderada', '0,31')">
+              <td>2</td>
+              <td>Miller 1L<div class="bar"><i style="width:91%"></i></div></td>
               <td class="r"><span class="tier">Moderada</span></td>
               <td class="r mx">0,31</td>
             </tr>
-            <tr onmouseenter="mostrarProducto('imgs/placer.png', 'Manaos Placer Pomelo 1.5L', '#9 en tendencia', 'Moderada', '0,25')">
-              <td>9</td>
-              <td>Manaos Placer Pomelo 1.5L<div class="bar"><i style="width:32%"></i></div></td>
+            <tr onmouseenter="mostrarProducto('imgs/brahma.png', 'Brahama 1L', '#3 en tendencia', 'Moderada', '0,31')">
+              <td>3</td>
+              <td>Brahama 1L<div class="bar"><i style="width:91%"></i></div></td>
               <td class="r"><span class="tier">Moderada</span></td>
-              <td class="r mx">0,25</td>
+              <td class="r mx">0,31</td>
             </tr>
-            <tr onmouseenter="mostrarProducto('imgs/ensalada.png', 'Ensalada Mixta', '#10 en tendencia', 'Leve', '0,18')">
+            <tr onmouseenter="mostrarProducto('imgs/Budweiser.png', 'Budweiser 1L', '#4 en tendencia', 'Moderada', '0,31')">
+              <td>4</td>
+              <td>Budweiser 1L<div class="bar"><i style="width:91%"></i></div></td>
+              <td class="r"><span class="tier">Moderada</span></td>
+              <td class="r mx">0,31</td>
+            </tr>
+            <tr onmouseenter="mostrarProducto('imgs/power.png', 'Powerade 500ml - Azul', '#5 en tendencia', 'Moderada', '0,29')">
+              <td>5</td>
+              <td>Powerade 500ml - Azul<div class="bar"><i style="width:85%"></i></div></td>
+              <td class="r"><span class="tier">Moderada</span></td>
+              <td class="r mx">0,29</td>
+            </tr>
+            <tr onmouseenter="mostrarProducto('imgs/ensalada.png', 'EnsaA Simple', '#6 en tendencia', 'Moderada', '0,28')">
+              <td>6</td>
+              <td>EnsaA Simple<div class="bar"><i style="width:82%"></i></div></td>
+              <td class="r"><span class="tier">Moderada</span></td>
+              <td class="r mx">0,28</td>
+            </tr>
+            <tr onmouseenter="mostrarProducto('imgs/monster.png', 'Monster verde', '#7 en tendencia', 'Moderada', '0,28')">
+              <td>7</td>
+              <td>Monster verde<div class="bar"><i style="width:82%"></i></div></td>
+              <td class="r"><span class="tier">Moderada</span></td>
+              <td class="r mx">0,28</td>
+            </tr>
+            <tr onmouseenter="mostrarProducto('imgs/coca.png', 'Coca Cola 237 ml JUNIOR', '#8 en tendencia', 'Moderada', '0,28')">
+              <td>8</td>
+              <td>Coca Cola 237 ml JUNIOR<div class="bar"><i style="width:82%"></i></div></td>
+              <td class="r"><span class="tier">Moderada</span></td>
+              <td class="r mx">0,28</td>
+            </tr>
+            <tr onmouseenter="mostrarProducto('imgs/coca225.png', 'Coca Cola 2,25lt', '#9 en tendencia', 'Moderada', '0,28')">
+              <td>9</td>
+              <td>Coca Cola 2,25lt<div class="bar"><i style="width:82%"></i></div></td>
+              <td class="r"><span class="tier">Moderada</span></td>
+              <td class="r mx">0,28</td>
+            </tr>
+            <tr onmouseenter="mostrarProducto('imgs/heineken.png', 'Heineken 1L', '#10 en tendencia', 'Moderada', '0,27')">
               <td>10</td>
-              <td>Ensalada Mixta<div class="bar"><i style="width:23%"></i></div></td>
-              <td class="r"><span class="tier">Leve</span></td>
-              <td class="r mx">0,18</td>
+              <td>Heineken 1L<div class="bar"><i style="width:79%"></i></div></td>
+              <td class="r"><span class="tier">Moderada</span></td>
+              <td class="r mx">0,27</td>
             </tr>
           </tbody>
         </table>
@@ -522,7 +664,7 @@
 
   <footer class="foot">
     <button class="more" onclick="irA('steep')">Volver al inicio →</button>
-    <span>Datos de caja del 1 de enero al 31 de diciembre</span>
+    <span>Datos de caja del 1 de enero de 2024 al 31 de diciembre de 2024</span>
   </footer>
 
 </div>
